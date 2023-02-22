@@ -1,0 +1,421 @@
+/* Header styles */
+
+#header {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+#header td {
+  vertical-align: middle;
+}
+
+#header a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
+
+#header b {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+#header .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#header .navbar li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+#header .navbar li:first-child {
+  margin-left: 0;
+}
+
+#header .navbar li a {
+  font-size: 24px;
+  font-family: "Verdana", sans-serif;
+}
+
+#header .navbar li a:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background-color: #4caf50;
+}
+
+#header a {
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+#header a:hover {
+  color: white;
+}
+
+#header td {
+  padding: 10px;
+}
+
+#home {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#home h3 {
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+#home h2 {
+  font-family: Verdana, sans-serif;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+#about {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#about {
+  font-family: Verdana, sans-serif;
+}
+
+#about td {
+  padding: 15px;
+}
+
+#about td hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#about img {
+  max-width: 100%;
+}
+
+#about font {
+  line-height: 1.5;
+}
+
+#about b {
+  color: #4caf50;
+}
+
+#about hr {
+  border: none;
+  height: 2px;
+  background-color: #4caf50;
+}
+
+#about td:first-child {
+  text-align: center;
+}
+
+#about td:last-child {
+  color: white;
+}
+
+#about td:last-child hr {
+  background-color: black;
+}
+#projects {
+  background-color: #c2c0c3;
+  border: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#projects td {
+  padding: 0;
+}
+
+#projects td table {
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#projects td table td {
+  vertical-align: middle;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+#projects td table td:first-child {
+  height: 180px;
+  font-size: 40px;
+}
+
+#projects td table td:first-child hr {
+  width: 90%;
+  margin: 10px auto;
+}
+
+#projects td table td:first-child ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#projects td table td:first-child li {
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 2;
+  position: relative;
+}
+
+#projects td table td:first-child li hr {
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  width: 100%;
+}
+
+#projects td table td:first-child li a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+#projects td table td:last-child img {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+.achievements-container {
+  background-color: black;
+  padding: 20px;
+}
+
+.achievements-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4caf50;
+  text-align: center;
+  margin-top: 0;
+}
+
+.achievements-divider {
+  border: none;
+  border-top: 3px solid #4caf50;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.achievements-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.achievement-item {
+  margin-bottom: 20px;
+}
+
+.achievement-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.achievement-details {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+}
+
+.achievement-date {
+  font-style: italic;
+  margin-right: 10px;
+}
+#contact {
+  border: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #c2c0c3;
+}
+
+#contact td {
+  padding: 0;
+}
+
+#contact hr {
+  margin: 0;
+}
+
+#contact font {
+  font-size: 16px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="number"],
+#contact textarea {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus,
+#contact input[type="number"]:focus,
+#contact textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #000000;
+}
+
+#contact button[type="submit"] {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#contact button[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#contact table {
+  border: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact td:first-child {
+  width: 30%;
+  text-align: right;
+}
+
+#contact td:last-child {
+  width: 70%;
+  text-align: left;
+}
+
+#contact td:nth-child(2n + 1) {
+  background-color: black;
+}
+
+#contact textarea {
+  resize: none;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+.image-project{
+  margin-left: 250px;
+}
